@@ -1,0 +1,15 @@
+INVOICE #INV-2026-0842
+Date: October 5, 2026
+Vendor: CloudScale Infrastructure Ltd.
+Billed To: Acme Corp Enterprise Operations
+
+Line Items:
+1. Dedicated Kubernetes Worker Nodes (x12)       $4,800.00
+2. Managed PostgreSQL High-Availability Cluster  $1,950.00
+3. Automated Offsite Encrypted Backups             $450.00
+
+Subtotal: $7,200.00
+Tax (8.25%): $594.00
+Total Amount Due: $7,794.00
+Payment Terms: Net 30
+Status: Verified Vendor Document

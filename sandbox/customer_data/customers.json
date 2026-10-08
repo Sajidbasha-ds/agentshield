@@ -1,0 +1,26 @@
+[
+  {
+    "customer_id": "CUST-1001",
+    "organization": "Meridian BioLabs",
+    "tier": "Enterprise",
+    "contact_email": "ops@meridian-biolabs.example",
+    "status": "ACTIVE",
+    "annual_contract_value": 128000
+  },
+  {
+    "customer_id": "CUST-1002",
+    "organization": "Northstar Logistics",
+    "tier": "Growth",
+    "contact_email": "billing@northstar-logistics.example",
+    "status": "ACTIVE",
+    "annual_contract_value": 45000
+  },
+  {
+    "customer_id": "CUST-1003",
+    "organization": "Aegis Financial Group",
+    "tier": "Enterprise",
+    "contact_email": "security@aegis-fin.example",
+    "status": "ACTIVE",
+    "annual_contract_value": 215000
+  }
+]

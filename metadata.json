@@ -1,0 +1,6 @@
+{
+  "name": "AgentShield — AI Agent Runtime Security Gateway",
+  "description": "Stop malicious AI actions before they reach sensitive tools. Real-time interception, multi-signal risk engine, attack-chain correlation, and dynamic capability containment for AI agents.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

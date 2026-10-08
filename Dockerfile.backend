@@ -1,0 +1,21 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    BACKEND_HOST=0.0.0.0 \
+    BACKEND_PORT=8000 \
+    AGENTSHIELD_DB_PATH=/app/data/agentshield.db
+
+COPY requirements.txt /app/requirements.txt
+RUN pip install --no-cache-dir -r /app/requirements.txt
+
+COPY backend /app/backend
+COPY sandbox /app/sandbox
+
+RUN mkdir -p /app/data
+
+EXPOSE 8000
+
+CMD ["python3", "-u", "backend/main.py"]
